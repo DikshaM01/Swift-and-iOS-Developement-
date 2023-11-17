@@ -1,0 +1,135 @@
+->Swift is a powerful and inituitive programming language developed by Apple.
+-> It is designed to work with Apple's Cocoa and Cocoa touch framework
+Why Choose Swift?
+
+1. Safe & Easy to Read: Swift's syntax and language constructions eliminate the types of unsafe code classes often found in C and Objective-C.
+
+2. Fast & Powerful: Swift code is performance-optimized and can compete with C++ for computation algorithms.
+
+3. Interoperability: Swift is designed to coexist with the Objective-C language, allowing you to incorporate Objective-C files into Swift projects and vice versa.
+
+4. Memory Management: Swift uses Automatic Reference Counting (ARC) for memory management, making it easier for developers
+
+Variables-> using var keyword for example varmyvar=10
+var keyword is used to declare variables
+Consonants->value cannot be changed once it will get set . declared using let keyword
+             for example let  myconstant=20
+->you must initialize the consonants
+Data Types: 
+1. Integers: Int keyword -> let myInt:Int=10
+2. Double and Floats: Double has a precision of at least 15 decimal digits, whereas the precision of Float can be as little as 6 decimal digits.
+   For example var myDouble:Double=3.14
+3.Booleans: let orangesareorange:Bool=true
+4.Strings:var hello:String="hello, world"
+
+print("Hello, World!") 
+->In Swift, we cannot change the type of a variable once it's declared.
+-> Initialization
+   var sitename:String
+   sitename='diksha'
+   print(sitename)
+
+->var siteName = "programiz.com"
+
+->for naming the variable we can use letter,underscore or dollar,not with numbers
+
+
+// create character type variable
+var letter: Character = "s"
+
+print(letter)
+
+// Output: s
+
+If we don't assign any value to a boolean variable, it takes false as its default value.
+->swift is case sensitive , a and A are different
+We use the append() function to join two strings in Swift
+var greet = "Hello "
+var name = "Jack"
+
+// using the append() method
+greet.append(name)
+print(greet)
+let message = "Hello, World!"
+
+// count length of a string
+print(message.count) // 13  Note: The count property counts the total number of characters in a string including whitespaces.
+
+isEmpty
+					determines if a string is empty or not
+			
+
+			
+				capitalized
+					capitalizes the first letter of every word in a string
+			
+
+			
+				uppercased()
+					converts string to uppercase
+			
+
+			
+				lowercase()
+					converts string to lowercase
+			
+
+			
+				hasPrefix()
+					determines if a string starts with certain characters or not
+			
+
+			
+				hasSuffix()
+					determines if a string ends with certain characters or not
+
+->Escape Sequence-it is used to escape from the characters.
+    var example="This is \"String\" class"
+   print(example)
+
+\0
+					null
+			
+
+			
+				\\
+					plain backslash
+			
+
+			
+				\t
+					a horizontal tab
+			
+
+			
+				\n
+					line feed
+			
+
+			
+				\"
+					double quote
+
+->we can also use the backslash operator '\' to use variables and constants inside a string 
+  for example-> let name="swift"
+                var message="this is \(name) programming" -> this is swift programming
+                print(message)
+-> multiline using """ quotes-> always begin with a new line
+
+->var str = String()
+
+-> print() function is taking a single parameter 
+   print(items:separator:terminator:)
+   items->values inside the double quotation
+   separator-> this is optional , allows us to separate multiple items print()
+  terminator-> this is also optional,allows us to add specific values like "\n" and "\t"
+
+var name:Double=10.6
+print(number) ->10.6
+
+->concatenated strings-> print("programiz is"+"awesome")-> programiz is aweosome
+
+readLine() is the method by which we can take the input and output ..
+print("enter your fav food")
+let name=readLine()
+print("my fav food is \name")
